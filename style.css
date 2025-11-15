@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  overflow: hidden;
+}
+.container {
+  margin: 20px;
+  background: rgb(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+#color-code {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+  font-weight: 500;
+}
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  margin: 5px;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.05);
+  background-color: #555;
+}
+#copy-color:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+#copy-color.copied {
+  background-color: green;
+  color: white;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  #color-code {
+    font-size: 0.9rem;
+  }
+  button {
+    font-size: 0.9rem;
+  }
+  .buttons {
+    margin-bottom: 20px;
+  }
+}
