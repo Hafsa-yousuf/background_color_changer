@@ -20,8 +20,3 @@ https://background-colorr-changerr.netlify.app/
 
 ## 🙌 Author
 **Hafsa Yousuf**
-
-
-
-🌐 Live Demo
-background-colorr-changerr.netlify.app
